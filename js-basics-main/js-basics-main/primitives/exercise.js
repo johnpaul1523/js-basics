@@ -235,7 +235,11 @@ function isEven(integer) {
 // Otherwise
 //    Return false
 function isOdd(integer) {
-  // YOUR CODE HERE
+  if (integer % 2) {
+    return true; 
+  } else  {
+    return false; 
+  }
 }
 
 
@@ -249,7 +253,12 @@ function isOdd(integer) {
 //
 // Treat 'y' as a consonant.
 function isVowel(string) {
-  // YOUR CODE HERE
+  if (string === 'a' || string === 'e' || string === 'i' || string === 'o' || string === 'u') {
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
 
